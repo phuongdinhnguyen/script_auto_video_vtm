@@ -1,0 +1,10 @@
+{
+	"videoFolderDir": "E:\\codes\\Videos",
+	"videoList": "video_list_test.csv",
+	"executionFile": "EncoderApp.exe",
+	"configFile8bit": ["encoder_intra_vtm_full_8bit.cfg", "encoder_intra_vtm_none_8bit.cfg"],
+	"configFile10bit": ["encoder_intra_vtm_none_10bit.cfg", "encoder_intra_vtm_full_10bit.cfg"],
+	"runParallel": 1,
+	"runFullFrame": 0
+}
+
