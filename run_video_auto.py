@@ -150,7 +150,7 @@ while True:                             # vòng lặp vô tận, liên tục ki�
             print(item["command"])
         time.sleep(3)
 
-    if (len(running_queue) == 0):     # thoát chương trình khi tất cả các video đã chạy xong
+    if (len(running_queue) == 0 and len(listCommand) == 0):     # thoát chương trình khi tất cả các video đã chạy xong
         print("finished running all videos!")
         break
 
@@ -166,7 +166,6 @@ while True:                             # vòng lặp vô tận, liên tục ki�
                 # đá khỏi queue
                 running_queue.pop(running_queue.index(item))
 
-    if (len(listCommand) == 0): continue
     if (len(listCommand) == 0): continue
     if (len(running_queue) == max_video): continue
 
